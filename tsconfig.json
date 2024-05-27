@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES6", //quando transpilar, seguir as boas práticas do ES6
+    "module": "CommonJS", // converter para o padão de módulos commonJS, que é o padrão da internet
+    "outDir": "./dist", //pasta onde os arq transpilados vão ficar
+    "strict": true, //verifica se as variaveis estão sendo utilizadas, entre outras declarações
+    "esModuleInterop": true //ser compatível com esModule | deixar os dois tipos de módulos interagirem entre si
+  }
+}

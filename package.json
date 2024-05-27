@@ -1,0 +1,21 @@
+{
+  "name": "10-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dist": "tsup src",
+    "start:dev": "tsx src/index.ts",
+    "start:watch": "tsx watch src/index.ts",
+    "start:dist": "npm rum dist && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  }
+}
